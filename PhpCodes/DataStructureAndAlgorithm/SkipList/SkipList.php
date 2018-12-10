@@ -159,9 +159,9 @@ foreach ($test as $value) {
         }
     } else {
         if ($result) {
-            echo '错误<br>';
-        } else {
             echo '正确<br>';
+        } else {
+            echo '错误<br>';
         }
     }
 
